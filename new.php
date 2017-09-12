@@ -16,6 +16,6 @@ try
 }
 catch (PDOException $e)
 {
-  echo "imposible de connectar: " . $e->getMessage() ."<p>";
+  echo "imposible de connectar,que et pasa: " . $e->getMessage() ."<p>";
 }
  ?>
